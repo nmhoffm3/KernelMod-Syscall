@@ -21,7 +21,7 @@ module_param(charParameter, charp, 0644);
 
 static int __init developer_info(void)
 {
-    printk(KERN_INFO "Hello, I am Nathan Hoffman, student of CSE330 %s %d", charParameter, intParameter);
+    printk(KERN_INFO "Hello, I am Nathan Hoffman, student of ASU %s %d", charParameter, intParameter);
     return 0;
 }
 
